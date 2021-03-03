@@ -3,27 +3,46 @@
 }
 .bonus-button{
     position: absolute;
-    bottom: 50px;
-    right: 98px;
+    bottom: 90px;
+    right: 158px;
     background: red;
     color: white;
     border: 1px solid red;
 }
+
+.bonus-button:hover{
+    background: rgb(180, 6, 6);
+}
 .cancel{
     position: absolute;
+    color: grey;
 }
+
 .bonus-anchor{
     text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.bonus-anchor:hover{
     color: white;
 }
 .terms-condition{
     position: absolute;
     left: 18px;
     bottom: 7.9px;
-    font-size: 0.5rem;
+    font-size: 1rem;
     text-decoration: none;
     color: white;
-    background: rgb(20, 20, 34);
+    background: rgb(15, 15, 32);
+}
+
+.terms-condition:hover{
+    color: red;
+}
+img{
+    width: 100%;
+
 }
 
 @media (width: 280px){
@@ -38,6 +57,7 @@
         left: 8px;
         bottom: 4px;
         font-size: 0.2rem;
+        font-size:0.6rem;
     }
 }
 
@@ -52,6 +72,7 @@
     .terms-condition{
         left: 8px;
         bottom: 6px;
+        font-size:0.4rem;
     }
 }
 
@@ -66,6 +87,7 @@
     .terms-condition{
         left: 8px;
         bottom: 6px;
+        font-size:0.6rem;
     }
 }
 
@@ -80,6 +102,7 @@
     .terms-condition{
         left: 8px;
         bottom: 6px;
+        font-size:0.4rem;
     }
 }
 
@@ -94,6 +117,7 @@
     .terms-condition{
         left: 8px;
         bottom: 6px;
+        font-size:0.6rem;
     }
 }
 
@@ -108,6 +132,7 @@
     .terms-condition{
         left: 8px;
         bottom: 6px;
+        font-size:0.6rem;
     }
 }
 @media (width: 414px){
@@ -135,6 +160,23 @@
     .terms-condition{
         left: 8px;
         bottom: 6px;
+        font-size:0.6rem;
+    }
+}
+
+
+@media (width: 768px){
+    .bonus-button{
+        bottom: 51px;
+        right: 93px;
+    }
+    .bonus-anchor{
+        font-size: 0.8rem;
+    }
+    .terms-condition{
+        left: 20px;
+        bottom: 6px;
+        font-size:0.6rem;
     }
 }
 
